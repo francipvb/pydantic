@@ -574,7 +574,7 @@ class FieldInfo(_repr.Representation):
 
 @dataclasses.dataclass(**_internal_dataclass.slots_true)
 class AliasPath:
-    """Usage docs: https://docs.pydantic.dev/2.3/usage/fields#aliaspath-and-aliaschoices
+    """Usage docs: https://docs.pydantic.dev/2.4/usage/fields#aliaspath-and-aliaschoices
 
     A data class used by `validation_alias` as a convenience to create aliases.
 
@@ -598,7 +598,7 @@ class AliasPath:
 
 @dataclasses.dataclass(**_internal_dataclass.slots_true)
 class AliasChoices:
-    """Usage docs: https://docs.pydantic.dev/2.3/usage/fields#aliaspath-and-aliaschoices
+    """Usage docs: https://docs.pydantic.dev/2.4/usage/fields#aliaspath-and-aliaschoices
 
     A data class used by `validation_alias` as a convenience to create aliases.
 
@@ -697,7 +697,7 @@ def Field(  # noqa: C901
     union_mode: Literal['smart', 'left_to_right'] = _Unset,
     **extra: Unpack[_EmptyKwargs],
 ) -> Any:
-    """Usage docs: https://docs.pydantic.dev/2.3/usage/fields
+    """Usage docs: https://docs.pydantic.dev/2.4/usage/fields
 
     Create a field for objects that can be configured.
 
